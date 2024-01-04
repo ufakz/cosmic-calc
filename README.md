@@ -10,21 +10,21 @@ For a detailed understanding of the problem, refer to the official paper: [Cosmo
 ### Pure C Implementation
 
 #### Setup
-1. Navigate to the `pure-c-implementation` folder.
+1. Navigate to the `galaxy.c` file.
 2. Compile the code using your preferred C compiler.
 3. Run the executable.
 
 ### OpenMP in C Implementation
 
 #### Setup
-1. Navigate to the `openmp-c-implementation` folder.
+1. Navigate to the `galaxy_omp.c` file.
 2. Compile the code with OpenMP support.
 3. Run the executable.
 
 ### Nvidia CUDA Implementation
 
 #### Setup
-1. Navigate to the `cuda-implementation` folder.
+1. Navigate to the `galaxy_cuda.cuda` file.
 2. Compile the CUDA code using the Nvidia CUDA compiler.
 3. Run the executable.
 
