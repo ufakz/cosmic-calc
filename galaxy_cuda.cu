@@ -1,10 +1,3 @@
-// compile your program with
-//    nvcc -O3 -arch=sm_70 --ptxas-options=-v  filename -lm -o galaxy
-//
-// run your program with
-//    srun -p gpu -n 1 --mem=10G ./galaxy RealGalaxies_100k_arcmin.dat SyntheticGalaxies_100k_arcmin.dat omega.out
-
-
 #include <cuda.h>
 #include <stdio.h>
 #include <stdlib.h>
